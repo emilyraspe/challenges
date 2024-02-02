@@ -70,6 +70,17 @@ button {
 
 .button4 {
   /*Style me! Can you add a shadow to this button? Maybe play around with the shadow properties, as well? You can even color the shadow, make it bigger or smaller, ... */
+  box-shadow: 10px 10px 5px black;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.button4:active {
+  border: 1px solid black;
+}
+
+.button4:hover {
+  box-shadow: -10px -10px 5px black;
 }
 
 /* Feel free to play around with other properties, as well. */
