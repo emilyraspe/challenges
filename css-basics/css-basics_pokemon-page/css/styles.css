@@ -79,7 +79,15 @@ section {
 */
 
 .subtitle {
-  /* your solution */
+  border-left: 3px solid gold;
+  border-right: 3px solid gold;
+  display: inline;
+  padding: 10px;
+}
+
+.orange {
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
 }
 
 /* ------- List ------- */
@@ -87,14 +95,14 @@ section {
 /* Task 7: Last but not least! We want to style our list with our favorite Pokémon. Which selector do we need? And also add values for the padding. */
 
 /* add selector */
- {
+ul {
   list-style: "🧡";
-  padding-left: /* add value */ ;
+  padding-left: 20px;
 }
 
 /* add selector */
- {
-  padding-left: /* add value */ ;
+li {
+  padding-left: 20px;
 }
 
 /* ------- The End -------- */
