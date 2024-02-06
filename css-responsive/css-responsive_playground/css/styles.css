@@ -116,3 +116,10 @@ h1 {
     height: 50px;
   }
 }
+
+/*Box 4*/
+@media (prefers-color-scheme: dark) {
+  .box--four {
+    background-color: black;
+  }
+}
