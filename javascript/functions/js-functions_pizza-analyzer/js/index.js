@@ -9,16 +9,18 @@ const outputSection = document.querySelector('[data-js="output-section"]');
 const output = document.querySelector('[data-js="output"]');
 
 pizzaInput1.addEventListener("input", () => {
-  // write your code here
+  let pizzaSize1 = pizzaInput1.value;
+  calculatePizzaGain(pizzaSize1, pizzaSize2);
 });
 
 pizzaInput2.addEventListener("input", () => {
-  // write your code here
+  let pizzaSize2 = pizzaInput2.value;
+  calculatePizzaGain(pizzaSize1, pizzaSize2);
 });
 
 // Task 1
 // define the function calculatePizzaGain here
-function calculatePizzaGain() {
+function calculatePizzaGain(diameter1, diameter2) {
   const radius1 = diameter1 / 2;
   const area1 = Math.PI * radius1 * radius1;
 
@@ -26,6 +28,8 @@ function calculatePizzaGain() {
   const area2 = Math.PI * radius2 * radius2;
 
   let pizzaGain = ((area2 - area1) / area1) * 100;
+
+  output.value = Math.round(pizzaGain);
 }
 
 // Task 2
