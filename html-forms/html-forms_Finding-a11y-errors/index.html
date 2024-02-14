@@ -16,19 +16,19 @@
         Please let us know how we can support you with a11y issues.
       </p>
 
-      <form for="understanding-a11y">
+      <form aria-describedby="description">
         <fieldset for="description">
           <legend>Enter your information</legend>
-          <label aria-describedby="name-input">Name:</label>
+          <label for="name-input">Name:</label>
           <input id="name-input" type="text" name="name" />
 
-          <label aria-describedby="age-input">Age:</label>
+          <label for="age-input">Age:</label>
           <input id="age-input" type="text" name="age" />
 
-          <label aria-describedby="color-input">Color you cannot see:</label>
+          <label for="color-input">Color you cannot see:</label>
           <input id="color-input" type="color" name="color" />
 
-          <label aria-describedby="leave-message">Leave us a message</label>
+          <label for="leave-message">Leave us a message</label>
           <textarea
             id="leave-message"
             rows="7"
