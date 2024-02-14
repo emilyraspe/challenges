@@ -18,6 +18,15 @@ pizzaInput2.addEventListener("input", () => {
 
 // Task 1
 // define the function calculatePizzaGain here
+function calculatePizzaGain() {
+  const radius1 = diameter1 / 2;
+  const area1 = Math.PI * radius1 * radius1;
+
+  const radius2 = diameter2 / 2;
+  const area2 = Math.PI * radius2 * radius2;
+
+  let pizzaGain = ((area2 - area1) / area1) * 100;
+}
 
 // Task 2
 // define the function updatePizzaDisplay here
