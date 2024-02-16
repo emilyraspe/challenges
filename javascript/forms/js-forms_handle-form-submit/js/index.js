@@ -8,7 +8,7 @@ form.addEventListener("submit", (evt) => {
   const data = Object.fromEntries(formData);
   console.log(data);
 
-  // age-badness-sum
+  //age-badness-sum
   let ageBadnessSum =
     parseInt(evt.target.elements.age.value) +
     parseInt(evt.target.elements.badness.value);
