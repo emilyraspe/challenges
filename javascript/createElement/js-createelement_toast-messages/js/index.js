@@ -13,7 +13,6 @@ addButton.addEventListener("click", () => {
   li.textContent = "I'm a toast message.";
   li.classList.add("toast-container__message");
 
-  //place element in DOM
   toastContainer.append(li);
 });
 
