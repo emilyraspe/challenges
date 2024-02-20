@@ -21,6 +21,7 @@ body {
   border: none;
   font-size: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 1s box-shadow ease-in-out, 500ms background-color ease-in-out;
 }
 
 .start-button:hover {
@@ -28,6 +29,7 @@ body {
   color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 1s box-shadow ease-in-out, 500ms background-color ease-in-out;
 }
 
 .start-button:disabled {
@@ -35,6 +37,10 @@ body {
   color: grey;
   box-shadow: none;
   cursor: not-allowed;
+}
+
+.start-button:active {
+  background-color: #32a309;
 }
 
 /* Toast */
@@ -50,11 +56,11 @@ body {
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 
-  transition: transform 0.5s;
+  transition: transform 1s;
 }
 
 .toast--hidden {
-  transform: translate3d(-150%, 0, 0);
+  transform: rotate(180deg) translateX(110%);
 }
 
 /* Countdown */
