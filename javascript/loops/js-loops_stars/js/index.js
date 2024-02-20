@@ -2,7 +2,7 @@ console.clear();
 
 const starContainer = document.querySelector('[data-js="star-container"]');
 
-function renderStars(filledStars = 0) {
+function renderStars(filledStars) {
   // reset the star container before rerendering stars
   starContainer.innerHTML = "";
 
