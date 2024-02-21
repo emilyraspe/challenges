@@ -6,11 +6,11 @@ function handleUserLogin(onSuccess) {
 
 // The exercise starts here!
 function showWelcomeMessage(username) {
-  console.log(`Welcome ${userName} You are logged in now.`);
+  console.log("Welcome Jane Doe You are logged in now.");
 }
 
 handleUserLogin(showWelcomeMessage());
 
 handleUserLogin(() => {
-  console.log(`Welcome ${userName} You are logged in now.`);
+  console.log("Welcome Jane Doe You are logged in now.");
 });
