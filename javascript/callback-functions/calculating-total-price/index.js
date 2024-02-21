@@ -24,9 +24,14 @@ const products = [
 
 function calculateTotalPrice(products, extractPrice) {
   let totalPrice = 0;
+  for (const product of products) {
+    totalPrice += extractPrice.product;
+  }
 }
 
-for (const product of products) {
-  calculateTotalPrice(product);
-  console.log(calculateTotalPrice);
+function extractPrice(product) {
+  return product.price;
 }
+
+const totalPrice = calculateTotalPrice(products, extractPrice);
+console.log(totalPrice);
