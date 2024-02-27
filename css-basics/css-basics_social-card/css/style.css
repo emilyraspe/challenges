@@ -1,0 +1,47 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f1f1f1;
+}
+
+article {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+img {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+path {
+  color: #35a0f1;
+}
+
+button {
+  border: none;
+  background: none;
+  size: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.account {
+  color: grey;
+  font-weight: 100;
+}
