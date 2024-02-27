@@ -20,7 +20,7 @@ Your task is to implement the fetch functionality:
 4. Call the `setColorToGuess()` function with the hex value and name of the closest named color.
 5. Guess colors! 🎉
 
-Switch to the `./js/fetch.js` file and start coding!
+Switch to the `./js/fetch.js` file and start coding!!
 
 ## Development
 
