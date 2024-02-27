@@ -39,7 +39,7 @@ renderElement(firstCard);
 
 fetchDataAndRender();
 
-// --v-- your code below this line --v--
+// --v-- your code below this line  --v--
 
 async function fetchDataAndRender() {
   try {
