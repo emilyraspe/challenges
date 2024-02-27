@@ -58,7 +58,7 @@ const anyAnimalEndsWithLetterZ = animalStrings.find((animal) =>
   animal.endsWith("z")
 );
 
-const everyAnimalHasMoreThanTwoLetters = animalStrings.filter(
+const everyAnimalHasMoreThanTwoLetters = animalStrings.every(
   (animal) => animal.length > 2
 );
 
