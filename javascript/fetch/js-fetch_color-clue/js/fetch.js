@@ -18,6 +18,7 @@ export async function fetchNewColor() {
    */
 
   // --v-- your code here --v--
+
   try {
     const response = await fetch(colorApiUrl);
     const data = await response.json();
