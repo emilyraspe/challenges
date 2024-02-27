@@ -48,7 +48,6 @@ async function fetchDataAndRender() {
       console.error("Ops! Bad Request");
       return;
     }
-
     const data = await response.json();
     console.log(data);
 
