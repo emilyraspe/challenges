@@ -1,5 +1,13 @@
 import "./App.css";
 
 export default function App() {
-  return <div>Replace me with an article</div>;
+  return Article();
+}
+
+function Article() {
+  return (
+    <article className="article">
+      <h2 className="article__title">Heading</h2>
+    </article>
+  );
 }
