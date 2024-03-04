@@ -4,7 +4,7 @@ export default function App() {
   return HelloWorldArticle();
 }
 
-export function HelloWorldArticle() {
+function HelloWorldArticle() {
   return (
     <article>
       <h1>Heading</h1>
