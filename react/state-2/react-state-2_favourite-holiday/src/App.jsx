@@ -12,6 +12,9 @@ export default function App() {
     const date = form.elements.date.value;
     setSubmittedHoliday(holiday);
     setSubmittedDate(date);
+
+    form.reset();
+    form.elements.holiday.focus();
   }
 
   return (
