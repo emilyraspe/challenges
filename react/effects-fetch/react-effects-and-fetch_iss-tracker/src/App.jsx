@@ -14,7 +14,10 @@ export default function App() {
   async function getISSCoords() {
     const response = await fetch(URL);
     const data = await response.json();
-    setCoords(data);
+    setCoords({
+      longitude: data.longitude,
+      latitude: data.latitude,
+    });
   }
 
   useEffect(() => {
