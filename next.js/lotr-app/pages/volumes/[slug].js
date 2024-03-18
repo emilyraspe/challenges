@@ -20,12 +20,7 @@ export default function VolumeDetail() {
       <Link href="/volumes">← All Volumes</Link>
       <h1>{volume.title}</h1>
       <p>{volume.description}</p>
-      <Image
-        src={volume.cover}
-        height={230}
-        width={140}
-        alt="the-two-towers Cover"
-      ></Image>
+      <Image src={volume.cover} height={230} width={140} alt="Cover"></Image>
       <ul>
         {books.map((book) => (
           <li key={book.ordinal}>
