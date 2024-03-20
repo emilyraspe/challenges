@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default function BoxWithStyledComponents({ $isBlack }) {
-  return <StyledBox $isBlack={$isBlack}></StyledBox>;
+  return <StyledBox />;
 }
 
 const StyledBox = styled.div`
