@@ -2,6 +2,7 @@ import { introduction, volumes } from "../lib/data";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import StyledButton from "./Components/Button.js";
 
 export default function Volumes() {
   const router = useRouter();
@@ -26,14 +27,14 @@ export default function Volumes() {
           </li>
         ))}
       </ul>
-      <button
+      <StyledButton
         onClick={() => {
           const random = getRandomElement(volumes);
           router.push(`/volumes/${random.slug}`);
         }}
       >
         Random Volume
-      </button>
+      </StyledButton>
     </div>
   );
 }

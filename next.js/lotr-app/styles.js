@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { volumes } from "./lib/data";
 import { Lora } from "next/font/google";
 
 const lora = Lora({
@@ -26,7 +25,12 @@ export default createGlobalStyle`
   h1,h2,h3,h4,h5,h5 {
     color: #dee2e6;
     padding-bottom: 5px;
+    padding-top: 5px;
+  }
 
+  h1 {
+    font-size: 2.5em;
+    padding-bottom: 15px;
   }
   a {
     color: #dee2e6;
@@ -45,4 +49,6 @@ export default createGlobalStyle`
     padding: 0px;
     margin: 0px;
   }
+
+
 `;

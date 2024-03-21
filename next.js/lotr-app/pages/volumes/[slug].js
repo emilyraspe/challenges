@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { volumes } from "../../lib/data";
-import Link from "next/link";
+
 import Image from "next/image";
 import Head from "next/head";
 import styled from "styled-components";
@@ -14,6 +14,11 @@ const VolumeDetailContainer = styled.div`
 `;
 
 const VolumeOvervieweContainer = styled.div`
+  margin-top: 25px;
+  margin-bottom: 25px;
+`;
+
+const Link = styled.a`
   margin-top: 25px;
   margin-bottom: 25px;
 `;
